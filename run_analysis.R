@@ -32,8 +32,8 @@ activity.labels<-as.character(activity.labels[,2])
 combine.subset$Activity<-activity.labels[combine.subset$Activity]
 
 #Appropriately labels the data set with descriptive variable names
-names(combine.subset)<-gsub("^t", "Time", names(combine.subset))
-names(combine.subset)<-gsub("^f", "Frequency", names(combine.subset))
+names(combine.subset)<-gsub("^t", "time", names(combine.subset))
+names(combine.subset)<-gsub("^f", "frequency", names(combine.subset))
 names(combine.subset)<-gsub("Acc", "Accelerometer", names(combine.subset))
 names(combine.subset)<-gsub("Gyro", "Gyroscope", names(combine.subset))
 names(combine.subset)<-gsub("Mag", "Magnitude", names(combine.subset))
