@@ -1,10 +1,16 @@
+No variable transformations were made.  Changes were only made to the text of the column headers to make variable names fore clear.  For information on the instructions for the assignment or links to the data, see the README file in this repo.
+
+The output is the cleaningdata.txt file found in this repo which includes the average of each variable (column) for each of the six activities (laying, sitting, standing, walking, walking downstairs, and walking upstairs) for each subject.  So subject 1 will have columns with the mean of each variable for walking, sitting, standing, and so on.
+
+Below is a description of how the data was gathered.
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
