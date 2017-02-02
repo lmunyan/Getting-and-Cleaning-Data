@@ -1,4 +1,10 @@
 # Getting-and-Cleaning-Data
+
+This repository contains my solution to the Getting and Cleaning Data Course Project.
+
+Below are the instructions for the project.  My script can be found in the .R file found in the repo, while the data can be found at the links in the instructions.
+Additional information can be found in the codebook, and final output can be found in the cleaningdata.txt file in the repo. 
+
 Instructions
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
