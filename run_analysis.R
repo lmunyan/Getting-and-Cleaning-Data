@@ -38,8 +38,9 @@ names(combine.subset)<-gsub("Acc", "Accelerometer", names(combine.subset))
 names(combine.subset)<-gsub("Gyro", "Gyroscope", names(combine.subset))
 names(combine.subset)<-gsub("Mag", "Magnitude", names(combine.subset))
 names(combine.subset)<-gsub("BodyBody", "Body", names(combine.subset))
-names(combine.subset)<-gsub("arCoeff", "Autoregression_Coeff", names(combine.subset))
-str(combine.subset)
+
+str(combine.subset)#look at the new variable names
+
 #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 tidy.data<-aggregate(.~Subject+Activity, combine.subset, mean)
 tidy.data2<-tidy.data[order(tidy.data$Subject, tidy.data$Activity),]
